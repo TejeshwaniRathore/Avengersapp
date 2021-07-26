@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterYourself"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtregiteryourself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER YOURSELF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/enterid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtregiteryourself"
+        android:hint="Enter Id Number"
+        android:layout_gravity="center"
+        android:inputType="number"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterid"
+        android:hint="Set password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register"
+        />
+
+
+</LinearLayout>
